@@ -1,0 +1,153 @@
+/* general settings */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+
+h4{
+    color: #363958;
+    font-weight: 700;
+}
+
+/* Navigation bar */
+
+.navigation-section{
+    background-image: url(../images/hero-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logoimage{
+    width: 291px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbaricon{
+    background-image: url(../images/icons/menu-icon.png) !important;
+}
+
+.navbar a{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.heroimage{
+    width: 80%;
+}
+
+.herotext h1{
+    font-size: 5rem;
+}
+
+.herotext span{
+    color: #FABE4C;
+}
+
+.hero-buynow{
+    background-color: #A4BC46;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px){
+    .logoimage{
+        width: 191px;
+    }
+
+    .herotext h1{
+        font-size: 3rem;
+    }
+}
+
+/* Jacket section */
+
+.jacketcard{
+    border-radius: 20px;
+
+}
+
+.cardimage{
+    height: 400px;
+    width: auto;
+    background-color: #F1F1F1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.jacket-price span{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FABE4C;
+}
+
+/* service section */
+
+.service-image{
+    width: 100%;
+}
+
+.service-single{
+    border-radius: 20px;
+}
+
+.service-single img{
+    width: 76px;
+}
+
+@media (max-width: 992px){
+    
+    .service-section{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 768px){
+
+    .service-single{
+        display: block !important;
+        text-align: center;
+    }
+
+}
+
+/* bonus section-1 : order form */
+
+.order-form{
+    border-radius: 20px;
+}
+
+.order-form-button{
+    background-color: #A4BC46;
+    border-radius: 10px;
+}
+
+/* Bonus section-2 : Footer */
+/* No CSS for this section*/
+
+/* Bonus section-3 : Go to top button */
+
+.go-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #A4BC46;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.go-top-button a{
+    color: #fff;
+}
